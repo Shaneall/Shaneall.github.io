@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+     <title>My Resume</title>
+     <style type="text/css">
+        * { margin: 0px; padding: 0px; }
+       
+		body { font: 16px Comic-sans, Arial; line-height: 20px; background-color:#886FAA }
+       
+        .cutit{ clear: both; }
+       
+        #layout { width: 800px; margin: 40px auto 60px; }
+       
+        #me { float: right; margin: -30px 0px 0px 0px; height:200px; width:200px }
+       
+        h1 {padding:0px 0px 20px 0px; margin: 0px 0px 16px 0px; font-size: 42px; font-family: cursive; font-weight: bold; border-bottom: 2px solid white; }
+       
+        h2 { font-size: 20px; margin: 0px 0px 6px 0px; position: relative; font-family:Verdana;}
+       
+        p { margin: 0px 0px 16px 0px; }
+       
+        a { color: white; text-decoration: none; border-bottom:2px solid white; }
+       
+        a:hover { border-bottom-style: solid; color: red; }
+        
+        span{color:white}
+       
+        ul { margin: 0px 0px 32px 17px; }
+       
+        #aligning { width: 600px; float: left; }
+       
+        #aligning p { font-family: Times, Arial; font-style: italic; color: black; }
+       
+        dt { font-style: italic; font-weight: bold; font-size: 25px; text-align: right; padding: 0px 26px 0px 0px; width: 150px; float: left; height: 100px; border-right: 1px solid ;  }
+       
+        dd { width: 600px; float: right; }
+       
+        dd.cutit {height:20px; float: none; margin: 0px; height: 20px; }
+     </style>
+</head>
+
+  
+<body>
+    <div id="layout">
+          <img src="http://static1.squarespace.com/static/5438a88ce4b0a3191f9d07c8/t/55c690d6e4b0f2e19074044a/1462507238511/?format=1500w" id="me" />
+          <div>
+        
+        
+            <h1>Shaneal</h1>
+        
+            <p>
+                Cell: <span class="tel">555-666-7777</span><br />
+                Email: <a href="www.yahoo.com">myrealemail@yahoo.com</a>
+            </p>
+        </div>
+                
+        <div id="aligning">
+            <p>
+              <strong>
+                I am a jovial soul who enjoys laughing and meeting new people (pleasnt people) . If time allows it, in my spare time is like to do some volunteering.
+              </strong>
+                </p>
+        </div>
+        
+        <div class="cutit"></div>
+        
+        <dl>
+            <dd class="cutit"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>UWI</h2>
+                <p><strong>Major:</strong> Sleeping<br />
+                   <strong>Minor:</strong> Computer Science</p>
+            </dd>
+            
+            <dd class="cutit"></dd>
+            
+            <dt>Skills</dt>
+            <dd>              
+              
+                <h2>Computer skills</h2>
+                <p>Proficient in Microsoft Suite, Intermediate Programmer(C, Java, Python, HTML and CSS)</p>
+      
+            </dd>
+            
+            <dd class="cutit"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2><em>Volunteering</em></h2>
+                <ul>
+			<li>Bethel Baptist</li>
+			<li>Soup Kitchen</li>
+			<li>Children's Home</li>
+			<li>Beach Clean-up</li>
+		</ul>
+                
+            </dd>
+            
+            <dd class="cutit"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>Sleeping, Coding, Reading, Chilling</dd>
+            
+            <dd class="cutit"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            
+            <dd class="cutit"></dd>
+        </dl>
+        
+        <div class="cutit"></div>
+    
+    </div>
+
+</body>
+
+</html>
